@@ -1,0 +1,21 @@
+h1
+{
+    margin-top: 0px;
+    margin-bottom: 15px;
+    margin-left: 300px;
+    margin-right: 150px;
+    justify-content: center;
+    color: crimson;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    border-radius: 5px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.data-entrance
+{
+    margin: 0px 0px 10px 10px;
+}

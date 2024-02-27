@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <h1>Tabla de Datos</h1>
+        <form action="">
+            <input id="inputnombre" type="text" name="nombre" placeholder="Nombre" required>
+            <input id="inputapellido" type="text" name="apellido" placeholder="Apellido" required>
+            <input id="inputmatricula" type="text" name="matricula" placeholder="Matricula" required>
+            <input id="inputcurso" type="text" name="curso" placeholder="Curso" required>
+            <input id="inputnota" type="text" name="nota" placeholder="Nota" required>   
+            <input id="agregar" type="submit" value="Agregar">
+        </form>
+        <table border="1">
+                <thead>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Matricula</th>
+                        <th>Curso</th>
+                        <th>Calificacion</th>
+                        <th>Botones</th>
+                </thead>
+                <tbody id="datos">
+                </tbody>
+     </table>
+ </main>
+    <script src="./script.js"></script>
+</body>
+</html>
